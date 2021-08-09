@@ -1,2 +1,2 @@
-casadi-horizon==0.0.2
+casadi-horizon==0.0.3
 matplotlib

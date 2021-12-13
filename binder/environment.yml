@@ -1,6 +1,7 @@
 name: horizon_try
 channels:
 - conda-forge
+- robostack
 dependencies:
 - ipykernel=5.1
 - jupyterlab-link-share=0.2

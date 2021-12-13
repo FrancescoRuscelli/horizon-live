@@ -1,1 +1,2 @@
-jupyter nbextension enable --py --sys-prefix jupyter_amphion
+jupyter nbextension install --py --symlink --sys-prefix jupyros
+jupyter nbextension enable --py --sys-prefix jupyros

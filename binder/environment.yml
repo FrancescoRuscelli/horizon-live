@@ -9,7 +9,6 @@ dependencies:
 - nbconvert=6
 - nodejs=14
 - jupyterlab=3.2
-- casadi-horizon=0.0.3
 - matplotlib
 - ipympl
 - ipyvuetify
@@ -21,4 +20,7 @@ dependencies:
 - ros-noetic-rosbag
 - ros-noetic-rosauth
 - ros-noetic-tf2-web-republisher
+- pip
+- pip:
+  - casadi-horizon=0.0.3
 

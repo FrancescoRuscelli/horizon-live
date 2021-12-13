@@ -2,5 +2,4 @@
 # jupyter nbextension enable --py --sys-prefix jupyros
 
 git clone https://github.com/FrancescoRuscelli/spot-ros-pkg
-cd spot-ros-pkg
-
+export ROS_PACKAGE_PATH=/home/jovyan:$ROS_PACKAGE_PATH

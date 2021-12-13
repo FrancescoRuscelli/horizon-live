@@ -22,5 +22,5 @@ dependencies:
 - ros-noetic-tf2-web-republisher
 - pip
 - pip:
-  - casadi-horizon=0.0.3
+  - casadi-horizon==0.0.3
 

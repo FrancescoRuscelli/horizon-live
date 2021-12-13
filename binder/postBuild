@@ -1,2 +1,6 @@
-jupyter nbextension install --py --symlink --sys-prefix jupyros
-jupyter nbextension enable --py --sys-prefix jupyros
+# jupyter nbextension install --py --symlink --sys-prefix jupyros
+# jupyter nbextension enable --py --sys-prefix jupyros
+
+git clone https://github.com/FrancescoRuscelli/spot-ros-pkg
+cd spot-ros-pkg
+

@@ -21,9 +21,10 @@ dependencies:
 #- ros-noetic-rosbag
 #- ros-noetic-rosauth
 #- ros-noetic-tf2-web-republisher
+- robostack::jupyterlab-ros
+- robostack::jupyter-amphion
 - robostack::jupyter-ros
 - pip
 - pip:
   - casadi-horizon==0.0.3
-#  - jupyterlab-zethus
 

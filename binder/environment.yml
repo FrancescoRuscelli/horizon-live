@@ -10,11 +10,11 @@ dependencies:
 - nodejs=14
 - jupyterlab=3.2
 - matplotlib
-- catkin_tools
 #- ipympl
 #- ipyvuetify
 #- bqplot
 #- ipywidgets
+- ros-noetic-catkin
 - ros-noetic-robot-state-publisher
 - ros-noetic-ros-core
 - ros-noetic-rospy

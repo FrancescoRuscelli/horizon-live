@@ -1,6 +1,7 @@
 # jupyter nbextension install --py --symlink --sys-prefix jupyros
 # jupyter nbextension enable --py --sys-prefix jupyros
 
+source /opt/ros/noetic/setup.bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make

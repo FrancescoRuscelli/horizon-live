@@ -10,6 +10,7 @@ dependencies:
 - nodejs=14
 - jupyterlab=3.2
 - matplotlib
+- catkin_tools
 #- ipympl
 #- ipyvuetify
 #- bqplot

@@ -1,9 +1,9 @@
 # jupyter nbextension install --py --symlink --sys-prefix jupyros
 # jupyter nbextension enable --py --sys-prefix jupyros
 
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/
-catkin_make
+#mkdir -p ~/catkin_ws/src
+#cd ~/catkin_ws/
+#catkin_make
 
 
 #cd ~/catkin_ws/src

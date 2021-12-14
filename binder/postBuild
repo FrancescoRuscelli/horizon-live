@@ -2,6 +2,7 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
 
+echo source devel/setup.bash >> ~/.bashrc
 
 cd src/
 git clone https://github.com/FrancescoRuscelli/spot-ros-pkg

@@ -6,7 +6,7 @@ echo "Found conda: $CONDA_PREFIX"
 
 
 # conda init && conda run -n notebook
-cd CONDA_PREFIX && git clone https://github.com/FrancescoRuscelli/spot-ros-pkg
+cd $CONDA_PREFIX && git clone https://github.com/FrancescoRuscelli/spot-ros-pkg
 # mkdir -p ~/horizon_ws/src
 # cd ~/horizon_ws/ && catkin_make
 

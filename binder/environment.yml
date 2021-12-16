@@ -27,5 +27,5 @@ dependencies:
 - robostack::jupyter-ros
 - pip
 - pip:
-  - casadi-horizon==0.0.3
+  - casadi-horizon
 

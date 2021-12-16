@@ -18,6 +18,7 @@ dependencies:
 - ros-noetic-robot-state-publisher
 - ros-noetic-ros-core
 - ros-noetic-rospy
+- ros-noetic-xacro
 #- ros-noetic-rosbridge-suite
 #- ros-noetic-rosbag
 #- ros-noetic-rosauth

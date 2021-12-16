@@ -11,7 +11,7 @@ cd ~/horizon_ws/src && git clone https://github.com/FrancescoRuscelli/spot-ros-p
 # mkdir -p ~/horizon_ws/src
 # cd ~/horizon_ws/ && catkin_make
 
-echo export ROS_PACKAGE_PATH="/srv/conda/envs/notebook/share:/home/jovyan/horizon_ws/src:$ROS_PACKAGE_PATH" >> ~/.bashrc
+echo export ROS_PACKAGE_PATH="$CONDA_PREFIX/share:/home/jovyan/horizon_ws/src:$ROS_PACKAGE_PATH" >> ~/.bashrc
 echo $ROS_PACKAGE_PATH
 
 

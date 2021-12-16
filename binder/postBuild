@@ -1,12 +1,15 @@
 #!/bin/bash
 
-mkdir -p ~/horizon_ws/src
-cd ~/horizon_ws/
-
 conda init
-conda run -n notebook && catkin_make
+conda run -n notebook
 
-source /opt/ros/noetic/setup.bash
+mkdir -p ~/horizon_ws/src
+cd ~/horizon_ws/ && catkin_make
+
+echo ROS_PACKAGE_PATH
+
+
+
 
 
 echo source ~/horizon_ws/devel/setup.bash >> ~/.bashrc

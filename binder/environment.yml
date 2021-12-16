@@ -16,7 +16,7 @@ dependencies:
 #- ipywidgets
 - ros-noetic-catkin
 - ros-noetic-robot-state-publisher
-- ros-noetic-robot-joint-publisher
+- ros-noetic-joint-state-publisher
 - ros-noetic-ros-core
 - ros-noetic-rospy
 - ros-noetic-xacro

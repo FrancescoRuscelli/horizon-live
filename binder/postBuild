@@ -1,8 +1,8 @@
-mkdir -p ~/horizon_ws/src
-cd ~/horizon_ws/
-catkin_make
+#mkdir -p ~/horizon_ws/src
+#cd ~/horizon_ws/
+#catkin_make
 
-echo source ~/horizon_ws/devel/setup.bash >> ~/.bashrc
+#echo source ~/horizon_ws/devel/setup.bash >> ~/.bashrc
 
-cd src/
-git clone https://github.com/FrancescoRuscelli/spot-ros-pkg
+#cd src/
+#git clone https://github.com/FrancescoRuscelli/spot-ros-pkg

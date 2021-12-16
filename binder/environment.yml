@@ -3,28 +3,25 @@ channels:
 - conda-forge
 - robostack
 dependencies:
-#- ipykernel=5.1
-#- jupyterlab-link-share=0.2
 - python=3.8
-- nbconvert=6
 - nodejs=14
 - jupyterlab=3.2
 - matplotlib
-#- ipympl
-#- ipyvuetify
-#- bqplot
-#- ipywidgets
+- ipympl
+- ipyvuetify
+- bqplot
+- ipywidgets
 - ros-noetic-catkin
 - ros-noetic-robot-state-publisher
 - ros-noetic-joint-state-publisher
 - ros-noetic-ros-core
 - ros-noetic-rospy
 - ros-noetic-xacro
-
 - ros-noetic-rosbridge-suite
 - ros-noetic-rosbag
 - ros-noetic-rosauth
 - ros-noetic-tf2-web-republisher
+
 - robostack::jupyterlab-ros
 - robostack::jupyter-amphion
 - robostack::jupyter-ros

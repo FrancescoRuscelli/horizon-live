@@ -1,9 +1,12 @@
 #!/bin/bash
-conda init
-conda run -n notebook
 
 mkdir -p ~/horizon_ws/src
 cd ~/horizon_ws/
+
+conda init
+conda run -n notebook
+conda env list
+
 catkin_make
 
 echo source ~/horizon_ws/devel/setup.bash >> ~/.bashrc

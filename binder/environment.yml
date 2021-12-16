@@ -16,9 +16,11 @@ dependencies:
 #- ipywidgets
 - ros-noetic-catkin
 - ros-noetic-robot-state-publisher
+- ros-noetic-robot-joint-publisher
 - ros-noetic-ros-core
 - ros-noetic-rospy
 - ros-noetic-xacro
+
 #- ros-noetic-rosbridge-suite
 #- ros-noetic-rosbag
 #- ros-noetic-rosauth

@@ -1,6 +1,8 @@
-#mkdir -p ~/horizon_ws/src
-#cd ~/horizon_ws/
-#catkin_make
+#!/bin/bash
+
+mkdir -p ~/horizon_ws/src
+cd ~/horizon_ws/
+catkin_make
 
 #echo source ~/horizon_ws/devel/setup.bash >> ~/.bashrc
 

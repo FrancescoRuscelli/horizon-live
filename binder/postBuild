@@ -1,5 +1,6 @@
 #!/bin/bash
-conda activate notebook
+conda init
+conda run -n notebook
 
 #mkdir -p ~/horizon_ws/src
 #cd ~/horizon_ws/

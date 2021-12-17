@@ -7,7 +7,6 @@ dependencies:
 - nodejs=14
 - jupyterlab=3.2
 - matplotlib
-- locate
 #- ipympl
 #- ipyvuetify
 #- bqplot

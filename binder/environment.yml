@@ -11,8 +11,8 @@ dependencies:
 #- ipyvuetify
 #- bqplot
 - urdfdom_headers
-- libboost
-- icu
+#- libboost
+#- icu
 #- ipywidgets
 - ros-noetic-catkin
 - ros-noetic-robot-state-publisher

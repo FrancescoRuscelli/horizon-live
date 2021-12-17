@@ -10,8 +10,8 @@ dependencies:
 #- ipympl
 #- ipyvuetify
 #- bqplot
-- urdfdom_headers
-#- libboost
+- urdfdom
+- boost==1.71.0
 #- icu
 #- ipywidgets
 - ros-noetic-catkin

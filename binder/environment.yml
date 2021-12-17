@@ -2,7 +2,7 @@ name: horizon_try
 channels:
 - conda-forge
 - robostack
-- francesco-ruscelli
+- francesco_ruscelli
 dependencies:
 - python=3.8
 - nodejs=14

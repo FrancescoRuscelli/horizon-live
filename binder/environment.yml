@@ -30,7 +30,7 @@ dependencies:
 - robostack::jupyterlab-ros
 - robostack::jupyter-amphion
 - robostack::jupyter-ros
-- francesco_ruscelli::casadi-horizon
+- francesco_ruscelli::casadi_horizon
 - pip
 - pip:
   - casadi-horizon

@@ -31,7 +31,7 @@ dependencies:
 - robostack::jupyter-amphion
 - robostack::jupyter-ros
 - francesco_ruscelli::casadi_horizon
-- pip
-- pip:
-  - casadi-horizon
+#- pip
+#- pip:
+#  - casadi-horizon
 

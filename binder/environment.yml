@@ -2,8 +2,9 @@ name: horizon_try
 channels:
 - conda-forge
 - robostack
+- francesco_ruscelli
 dependencies:
-- python=3.6
+- python=3.8
 - nodejs=14
 - jupyterlab=3.2
 - matplotlib
@@ -15,12 +16,12 @@ dependencies:
 #- ipywidgets
 #- ros-noetic-ros-base
 #- libboost=1.71
-- ros-melodic-catkin
-- ros-melodic-robot-state-publisher
-- ros-melodic-joint-state-publisher
-- ros-melodic-ros-core
-- ros-melodic-rospy
-- ros-melodic-xacro
+- ros-noetic-catkin
+- ros-noetic-robot-state-publisher
+- ros-noetic-joint-state-publisher
+- ros-noetic-ros-core
+- ros-noetic-rospy
+- ros-noetic-xacro
 #- ros-noetic-rosbridge-suite
 #- ros-noetic-rosbag
 #- ros-noetic-rosauth
@@ -29,7 +30,8 @@ dependencies:
 - robostack::jupyterlab-ros
 - robostack::jupyter-amphion
 - robostack::jupyter-ros
+- francesco_ruscelli::casadi-horizon
 #- pip
-- pip:
-  - casadi-horizon
+#- pip:
+# - casadi-horizon
 

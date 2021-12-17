@@ -11,7 +11,7 @@ dependencies:
 #- ipyvuetify
 #- bqplot
 - urdfdom
-- boost-cpp
+- boost
 #- icu
 #- ipywidgets
 - ros-noetic-catkin

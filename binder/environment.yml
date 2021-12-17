@@ -10,7 +10,7 @@ dependencies:
 - ipympl
 - ipyvuetify
 - bqplot
-- urdfdom
+- urdfdom_headers
 - ipywidgets
 - ros-noetic-catkin
 - ros-noetic-robot-state-publisher

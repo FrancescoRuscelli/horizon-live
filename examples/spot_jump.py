@@ -10,43 +10,19 @@ import matplotlib.pyplot as plt
 import os
 from scipy.io import loadmat
 
-def trajectoryInitializer(traj_duration, step_height, traj_len_before=0, traj_len_after=0):
-    t = np.linspace(0, 1, np.ceil(traj_duration - (traj_len_after + traj_len_before)))
-    traj_z = np.full(traj_len_before, 0.)
-    traj_z = np.append(traj_z, (64. * t ** 3. * (1. - t) ** 3.) * step_height)
-    traj_z = np.append(traj_z, np.full(traj_len_after, 0.))
-    return traj_z
 
-# ========================================
-# traj = trajectoryInitializer(100, 10, 60, 10)
-# initial_q = -0.5
-# mod_q = initial_q + traj
-#
-# FK = cs.Function.deserialize(kindyn.ik(frame))
-# p = FK(q=q)['ee_pos']
-# p_start = FK(q=q_init)['ee_pos']
-
-# plt.scatter(range(mod_q.shape[0]), mod_q)
-# plt.show()
-# exit()
-
-# =========================================
 ms = mat_storer.matStorer(f'{os.path.splitext(os.path.basename(__file__))[0]}.mat')
 
 transcription_method = 'multiple_shooting'  # direct_collocation # multiple_shooting
 transcription_opts = dict(integrator='RK4')
 
-# rospack = rospkg.RosPack()
-# rospack.get_path('spot_urdf')
-urdffile = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../urdf', 'spot.urdf')
-urdf = open(urdffile, 'r').read()
+urdf = open('urdf/spot.urdf', 'r').read()
 kindyn = cas_kin_dyn.CasadiKinDyn(urdf)
 
 # joint names
 joint_names = kindyn.joint_names()
 if 'universe' in joint_names: joint_names.remove('universe')
 if 'floating_base_joint' in joint_names: joint_names.remove('floating_base_joint')
-
 
 
 n_nodes = 50
@@ -260,8 +236,7 @@ for f in f_list:
 # =============
 opts = {'ipopt.tol': 0.001,
         'ipopt.constr_viol_tol': 0.001,
-        'ipopt.max_iter': 2000,
-        'ipopt.linear_solver': 'ma57'}
+        'ipopt.max_iter': 2000}
 
 solver = solver.Solver.make_solver('ipopt', prb, opts)
 solver.solve()

@@ -5,6 +5,9 @@ channels:
 - francesco_ruscelli
 dependencies:
 - python=3.8
+- nodejs=14
+- jupyterlab=3.2
+- matplotlib
 - scipy
 - numpy
 - matplotlib
@@ -14,3 +17,4 @@ dependencies:
 - ros-noetic-pinocchio
 - francesco_ruscelli::casadi_kin_dyn
 - francesco_ruscelli::horizon
+- robostack::jupyterlab-ros

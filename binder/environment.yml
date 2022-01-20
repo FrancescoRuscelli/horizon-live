@@ -5,32 +5,11 @@ channels:
 - francesco_ruscelli
 dependencies:
 - python=3.8
-#- nodejs=14
-#- jupyterlab=3.2
-#- matplotlib
-#- ipympl
-#- ipyvuetify
-#- bqplot
-#- urdfdom
-#- ipywidgets
-#- ros-noetic-ros-base
-#- libboost=1.71
-#- ros-noetic-catkin
-#- ros-noetic-robot-state-publisher
-#- ros-noetic-joint-state-publisher
-#- ros-noetic-ros-core
-#- ros-noetic-rospy
-#- ros-noetic-xacro
-#- ros-noetic-rosbridge-suite
-#- ros-noetic-rosbag
-#- ros-noetic-rosauth
-#- ros-noetic-tf2-web-republisher
-
-#- robostack::jupyterlab-ros
-#- robostack::jupyter-amphion
-#- robostack::jupyter-ros
-- francesco_ruscelli::casadi-horizon
-#- pip
-#- pip:
-# - casadi-horizon
-
+- scipy
+- numpy
+- matplotlib
+- ipython
+- casadi
+- ros-noetic-pinocchio
+- francesco_ruscelli::casadi_kin_dyn
+- francesco_ruscelli::horizon

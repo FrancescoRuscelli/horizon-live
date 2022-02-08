@@ -1,0 +1,9 @@
+pushing to the repo will change the jupyterlab environment
+
+once inside the binder (jupyterlab, you can find it in the link https://github.com/ADVRHumanoids/horizon):
+
+open a terminal, go to the containing folder and:
+    --> roslaunch spot.launch
+
+open another terminal, go to the containing folder and:
+    --> python3 spot_jump.py

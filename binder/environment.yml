@@ -18,5 +18,5 @@ dependencies:
 - ros-noetic-joint-state-publisher
 - ros-noetic-pinocchio
 - francesco_ruscelli::casadi_kin_dyn
-- francesco_ruscelli::horizon=0.3.0
+- francesco_ruscelli::horizon=0.4.0
 - robostack::jupyterlab-ros
